@@ -1,0 +1,64 @@
+/*Intro investimentos*/
+
+.intro-investimentos {
+  margin-top: 70px;
+}
+
+.intro-investimentos h2 {
+  font-family: IBM plex sans, arial;
+  font-size: 42px;
+  font-weight: medium;
+  color: black;
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+.img-rendimento img {
+  margin: 80px auto;
+}
+
+/*modificação nos investimentos*/
+
+.investimentos {
+  height: 670px;
+}
+
+.invest1-invest {
+  background: #f2f2f2;
+  border-radius: 4px;
+  height: 170px;
+  margin: 10px 20px 20px 20px;
+  box-shadow: black 0px 1px 2px;
+}
+
+.invest2-invest {
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 10px 20px 20px 20px;
+  height: 170px;
+  box-shadow: black 0px 1px 2px;
+}
+
+.invest3-invest {
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 10px 20px 20px 20px;
+  height: 170px;
+  box-shadow: black 0px 1px 2px;
+}
+
+.invest4-invest {
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 10px 20px 20px 20px;
+  height: 170px;
+  box-shadow: black 0px 1px 2px;
+}
+
+.difup {
+  margin-top: 50px;
+}
+
+.difdawn {
+  margin-bottom: 50px;
+}

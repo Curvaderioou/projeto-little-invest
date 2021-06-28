@@ -1,0 +1,323 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 1300px) {
+  .container {
+    width: 768px;
+  }
+
+  /*Intro*/
+  .intro h1 {
+    max-width: 400px;
+    margin: 40px 0px 50px 20px;
+    font-size: 38px;
+  }
+
+  /*Intro investimento*/
+
+  .info-invest1 {
+    padding: 10px 0 0 15px;
+  }
+
+  .info-invest2 {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .info-invest3 {
+    margin: 10px 0 0 15px;
+  }
+
+  .info-invest4 {
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px auto;
+    height: 50px;
+    width: 110px;
+  }
+
+  /*Quote*/
+
+  .quote blockquote {
+    max-width: 550px;
+    font-size: 38px;
+    line-height: 45px;
+    top: -75px;
+  }
+
+  .quote cite {
+    margin-top: 230px;
+    left: -5px;
+    top: -50px;
+  }
+
+  /*formulario*/
+
+  .contato h2 {
+    font-size: 38px;
+  }
+
+  .formulario input {
+    width: 280px;
+    margin-top: 10px;
+  }
+
+  .formulario label {
+    margin-top: 10px;
+  }
+
+  .contato form label:first-child {
+    margin-top: 40px;
+  }
+
+  .atendimento p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  /*footer*/
+
+  .item1::before,
+  .item2::before,
+  .item3::before,
+  .item4::before,
+  .item5::before,
+  .item6::before {
+    visibility: hidden;
+  }
+  .mapa ul li {
+    padding: 1px;
+    margin-left: 0px;
+  }
+
+  .mapa ul li:nth-of-type(4) {
+    text-align: right;
+    top: -110px;
+    left: -19px;
+  }
+
+  .mapa ul li:nth-of-type(5) {
+    text-align: right;
+    top: -110px;
+    left: -9px;
+  }
+
+  .mapa ul li:nth-of-type(6) {
+    text-align: right;
+    top: -110px;
+    left: -5px;
+  }
+
+  .mapa ul li {
+    margin-left: 20px;
+  }
+
+  .redes_sociais ul li a:first-child {
+    float: left;
+    display: block;
+    padding: 1px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .face {
+    margin-left: 20px;
+  }
+
+  /*Investimento*/
+
+  .intro-investimentos h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  /*Contato*/
+
+  .ondeestamos span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .ondeestamos p {
+    font-size: 30px;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .ondeestamos {
+    height: 450px;
+  }
+
+  .copy2 p {
+    font-family: IBM plex sans, arial;
+    font-size: 14px;
+    font-weight: medium;
+    color: black;
+    padding: 12px 0;
+    margin-left: 20px;
+  }
+}
+
+/*Estilo para mobile*/
+@media only screen and (max-width: 788px) {
+  .container {
+    width: 300px;
+  }
+  /*Header*/
+  .options-bar ul li {
+    display: inline;
+    padding: 10px;
+  }
+
+  .header {
+    height: 100px;
+    background: #f2f2f2;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo img {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .barra {
+    text-align: center;
+  }
+
+  /*Intro */
+
+  .intro h1 {
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .intro a {
+    margin-left: 70px;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .intro img {
+    margin-top: 80px;
+  }
+
+  .investimentos {
+    height: 950px;
+  }
+
+  .subtitulo {
+    margin: 40px 0;
+  }
+
+  /*Quote*/
+  .quote blockquote {
+    font-size: 28px;
+    margin-top: -30px;
+    line-height: 30px;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+
+  .quote cite {
+    margin-top: 5px;
+    margin-left: 30px;
+    top: -20px;
+    position: relative;
+  }
+
+  /*Formulario*/
+
+  .formulario input {
+    width: 260px;
+  }
+
+  /*Footer*/
+  .footer {
+    height: 500px;
+    margin-top: 60px;
+  }
+
+  .redes_sociais ul li a {
+    display: block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .redes_sociais ul li a:first-child {
+    margin-left: 20px;
+  }
+
+  .sobre {
+    padding-top: 90px;
+  }
+
+  .copy {
+    margin-top: 40px;
+  }
+  .copy p {
+    padding: 5px;
+    margin-left: 14px;
+    font-size: 12px;
+  }
+
+  .contato h2 {
+    margin-top: 40px;
+  }
+
+  /*Contato*/
+
+  .formcontato h2 {
+    margin-top: 80px;
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
+
+  .ondeestamos {
+    height: 700px;
+  }
+
+  .ondeestamos h2 {
+    font-size: 34px;
+    margin-bottom: -10px;
+  }
+
+  .ondeestamos span {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  .ondeestamos p {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  .footer-ctto {
+    height: 490px;
+  }
+  .copy2 p {
+    font-size: 12px;
+    margin-left: 14px;
+    padding: 5px;
+  }
+
+  .sobre-contato {
+    margin-bottom: 20px;
+  }
+
+  .investimentos2 {
+    height: 2725px;
+  }
+
+  .difmidle {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}

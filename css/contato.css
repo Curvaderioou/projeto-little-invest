@@ -1,0 +1,165 @@
+/* Contato */
+
+.formcontato {
+  margin-top: 100px;
+}
+
+.ondeestamos {
+  background: #4456dd;
+  height: 550px;
+  margin-top: 60px;
+}
+
+.ondeestamos h2 {
+  font-family: IBM plex sans, arial;
+  font-size: 42px;
+  color: white;
+  font-weight: medium;
+  text-align: center;
+  padding: 40px;
+}
+
+.mapa {
+  margin: 0 auto;
+}
+
+.ondeestamos span {
+  font-family: IBM plex sans, arial;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.ondeestamos p {
+  font-family: IBM plex sans, arial;
+  font-size: 42px;
+  color: white;
+  font-weight: medium;
+  max-width: 400px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.ondeestamos img {
+  margin-top: 20px;
+}
+
+.informacoesctto {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+/*Botton*/
+
+.footer-ctto {
+  background: black;
+  width: 100%;
+  height: 200px;
+  margin-top: -20px;
+}
+
+.footer-ctto h4 {
+  font-family: IBM plex sans, arial;
+  font-size: 18px;
+  font-weight: semibold;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.copy2 {
+  width: 100%;
+  background: #f2f2f2;
+  height: 40px;
+}
+
+.copy2 p {
+  font-family: IBM plex sans, arial;
+  font-size: 14px;
+  font-weight: medium;
+  color: black;
+  padding: 12px 0;
+  margin-left: 20px;
+}
+
+.footer-ctto {
+  background: black;
+  width: 100%;
+  height: 200px;
+}
+
+.mapa2 {
+  font-family: IBM plex sans, arial;
+  font-size: 16px;
+  font-weight: medium;
+  color: #7a7a7a;
+  max-width: 400px;
+}
+
+.mapa2 ul {
+  max-height: 120px;
+}
+
+.mapa2 ul li {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.mapa2 ul li:nth-of-type(4) {
+  text-align: right;
+  position: relative;
+  top: -106px;
+  left: -116px;
+}
+
+.mapa2 ul li:nth-of-type(5) {
+  text-align: right;
+  position: relative;
+  top: -106px;
+  left: -105px;
+}
+
+.mapa2 ul li:nth-of-type(6) {
+  text-align: right;
+  position: relative;
+  top: -104px;
+  left: -102px;
+}
+
+.mapa2 .item4::before {
+  content: "";
+  display: block;
+  background: #f2f2f2;
+  width: 7px;
+  height: 2px;
+  text-align: left;
+  position: relative;
+  bottom: -11px;
+  right: -209px;
+}
+.mapa2 .item5::before {
+  content: "";
+  display: block;
+  background: #f2f2f2;
+  width: 7px;
+  height: 2px;
+  text-align: left;
+  position: relative;
+  bottom: -11px;
+  right: -198px;
+}
+
+.mapa2 .item6::before {
+  content: "";
+  display: block;
+  background: #f2f2f2;
+  width: 7px;
+  height: 2px;
+  text-align: left;
+  position: relative;
+  bottom: -11px;
+  right: -195px;
+}
